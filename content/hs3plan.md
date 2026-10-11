@@ -2,17 +2,34 @@ Title: Home Assistant HS3 Plan
 Date: 2026-08-29 09:44
 Category: Programming
 
-### Introduction
+<div class="custom-box">
+    <p>
+    <a href="https://hs3.pl/">Hackerspace Trójmiasto</a> (abbrv. HS3) is a community focused on technology, as well as a physical space located in Gdańsk, Poland. It is open to anyone. The space has its Home Assistant solution, alongside many iot devices. This project aims to plot the current data from these devices and show them on the Hackerspace's plan.
+    <br><br>You can see the live website here:
+    </p>
+    <a class="button" href="https://martasien.github.io/home-assistant-hs3-plan/">martasien.github.io/home-assistant-hs3-plan</a>
+</div>
 
-[Hackerspace Trójmiasto](https://hs3.pl/) (abbrv. HS3) is a community focused on technology, as well as a physical space located in Gdańsk, Poland. It is open to anyone. The space has its Home Assistant solution, alongside many iot devices. This project aims to plot the current data from these devices and show them on the Hackerspace's plan.
-
-You can see the live website here: [martasien.github.io/home-assistant-hs3-plan](https://martasien.github.io/home-assistant-hs3-plan/)
+<style>
+.custom-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #c00e0e;
+  color: white;
+  text-decoration: none;
+}
+</style>
 
 ![hs3-plan]({static}/img/hahs3.jpg)
 
 ### What does the website show?
 
-- Current temperature in Hackerspace</div>
+- Current temperature in Hackerspace
 - Data gathered from hackerspace's thermostats. 
 
 - Number of people in Hackerspace
