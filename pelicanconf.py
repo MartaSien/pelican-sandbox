@@ -1,8 +1,18 @@
 AUTHOR = 'MartaSien'
 SITENAME = 'My Pelican Portfolio'
 SITEURL = ""
-
+THEME = "theme"
 PATH = "content"
+
+SITELOGO = "/img/profile.png"
+SITESUBTITLE = """
+<h2>Marta Sienkiewicz</h2>
+<h5>Release manager at <a href="https://www.hapag-lloyd.com/">Hapag-Lloyd</a></h5>
+<br>
+<h5>Explore my work</h5>
+<a href="/category/programming">Programming</a><br>
+<br><a href="/category/graphic-design">Graphic Design</a><br>
+"""
 
 TIMEZONE = 'Europe/Warsaw'
 
@@ -15,18 +25,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = [
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-]
-
 # Social widget
 SOCIAL = [
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("github", "https://github.com/MartaSien"),
+    ("linkedin", "https://www.linkedin.com/in/marta-sienkiewicz-33898a120"),
 ]
 
 DEFAULT_PAGINATION = 10
